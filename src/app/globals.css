@@ -1,0 +1,44 @@
+/* src/app/globals.css */
+@import "tailwindcss";
+
+@theme inline {
+  --font-prompt: var(--font-prompt);
+  --color-dhamma-blue: #1e40af;
+  --color-dhamma-gold: #b45309;
+  --color-dhamma-slate: #475569;
+  
+  /* เชื่อมต่อ Animation เข้ากับ Tailwind */
+  --animate-slide-in-left: slide-in-left 0.3s ease-out;
+  --animate-fade-in: fade-in 0.2s ease-out;
+}
+
+/* กำหนด Keyframes แบบมาตรฐาน */
+@keyframes slide-in-left {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1e293b;
+}
+
+body {
+  font-family: var(--font-prompt), sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* ซ่อน Scrollbar ของเมนูให้ดูสะอาด */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 10px;
+}
