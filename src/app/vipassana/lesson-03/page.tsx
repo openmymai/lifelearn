@@ -14,7 +14,7 @@ export default function Lesson0103() {
   ];
 
   const aggregates = [
-    { name: "รูป ร่างกาย", detail: "" },
+    { name: "รูป", detail: "ร่างกาย" },
     { name: "เวทนา", detail: "ความพอใจ ไม่พอใจ" },
     { name: "สัญญา", detail: "ความจำ" },
     { name: "สังขาร", detail: "ความคิด" },
@@ -39,7 +39,7 @@ export default function Lesson0103() {
 
         {/* ส่วนที่ 1: ฝึกเห็นตามจริง (จริงไหม—-จริง) */}
         <div className="space-y-4 mb-16">
-          <h4 className="text-center text-slate-400 font-medium mb-8 uppercase tracking-widest">ส่วนที่ ๑: ฝึกถาม-ตอบในใจ</h4>
+          <h4 className="text-center text-slate-400 font-medium mb-8 uppercase tracking-widest">ส่วนที่ 1: ธรรมวิจยะ</h4>
           {senses.map((s, i) => (
             <IntrospectionCard key={i}>
               <p className="text-2xl font-bold text-dhamma-blue mb-6">{s.subject} {s.object}ไม่เที่ยงเกิดดับ ตัวฉันไม่เที่ยงเกิดดับ</p>
@@ -55,7 +55,7 @@ export default function Lesson0103() {
 
         {/* ส่วนที่ 2: ฝึกจดจ่อการเกิดดับ (1...10) */}
         <div className="space-y-4 mb-16">
-          <h4 className="text-center text-slate-400 font-medium mb-8 uppercase tracking-widest">ส่วนที่ ๒: ฝึกจดจ่อต่อเนื่อง</h4>
+          <h4 className="text-center text-slate-400 font-medium mb-8 uppercase tracking-widest">ส่วนที่ 2: นับ 1 ถึง 10</h4>
           {senses.map((s, i) => (
             <IntrospectionCard key={i} highlight={i % 2 === 0}>
               <p className="text-2xl font-bold mb-6">{s.subject} {s.object}ไม่เที่ยงเกิดดับ ตัวฉันไม่เที่ยงเกิดดับ</p>
