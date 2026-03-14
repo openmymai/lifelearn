@@ -1,44 +1,44 @@
 // src/app/vipassana/page.tsx
-import Link from "next/link";
-import { FaPlay, FaBookOpen, FaCheckCircle } from "react-icons/fa";
+import Link from 'next/link';
+import { FaPlay, FaBookOpen, FaCheckCircle } from 'react-icons/fa';
 
 export default function VipassanaIndex() {
   const lessons = [
     {
-      id: "01",
-      title: "พิจารณาขันธ์ 5 และอินทรีย์ 6",
-      description: "เริ่มต้นพิจารณาขันธ์ 5 และอินทรีย์ 6 ให้เห็นความไม่เที่ยงเกิดดับ",
-      href: "/vipassana/lesson-01",
+      id: '01',
+      title: 'พิจารณาขันธ์ 5 และอินทรีย์ 6',
+      description: 'เริ่มต้นพิจารณาขันธ์ 5 และอินทรีย์ 6 ให้เห็นความไม่เที่ยงเกิดดับ',
+      href: '/vipassana/lesson-01',
     },
     {
-      id: "02",
-      title: "ตามทันตัวเรา",
-      description: "พิจารณาเหตุปัจจัยและการแตกสลายของร่างกายและสิ่งของรอบตัว",
-      href: "/vipassana/lesson-02",
+      id: '02',
+      title: 'ตามทันตัวเรา',
+      description: 'พิจารณาเหตุปัจจัยและการแตกสลายของร่างกายและสิ่งของรอบตัว',
+      href: '/vipassana/lesson-02',
     },
     {
-      id: "03",
-      title: "ฝึกเห็นตามจริง",
-      description: "การพิจารณาด้วยปัญญาผ่านการถาม-ตอบ และการจดจ่อต่อเนื่อง",
-      href: "/vipassana/lesson-03",
+      id: '03',
+      title: 'ฝึกเห็นตามจริง',
+      description: 'การพิจารณาด้วยปัญญาผ่านการถาม-ตอบ และการจดจ่อต่อเนื่อง',
+      href: '/vipassana/lesson-03',
     },
     {
-      id: "04",
-      title: "การพิจารณาอินทรีย์ 6",
-      description: "กำหนดรู้องค์ประกอบและผลต่อเนื่องของผัสสะอย่างละเอียด",
-      href: "/vipassana/lesson-04",
+      id: '04',
+      title: 'การพิจารณาอินทรีย์ 6',
+      description: 'กำหนดรู้องค์ประกอบและผลต่อเนื่องของผัสสะอย่างละเอียด',
+      href: '/vipassana/lesson-04',
     },
     {
-      id: "05",
-      title: "อินทรีย์ 6 และขันธ์ 5",
-      description: "พิจารณาความเชื่อมโยงของเหตุปัจจัย และการละความยึดมั่นในตัวตน",
-      href: "/vipassana/lesson-05",
+      id: '05',
+      title: 'อินทรีย์ 6 และขันธ์ 5',
+      description: 'พิจารณาความเชื่อมโยงของเหตุปัจจัย และการละความยึดมั่นในตัวตน',
+      href: '/vipassana/lesson-05',
     },
     {
-      id: "06",
-      title: "ฝึกเอาความจริงไปใช้",
-      description: "บทสรุปการนำปัญญาไปใช้กับทุกสัมผัสในชีวิตประจำวัน",
-      href: "/vipassana/lesson-06",
+      id: '06',
+      title: 'ฝึกเอาความจริงไปใช้',
+      description: 'บทสรุปการนำปัญญาไปใช้กับทุกสัมผัสในชีวิตประจำวัน',
+      href: '/vipassana/lesson-06',
     },
   ];
 
@@ -82,15 +82,18 @@ export default function VipassanaIndex() {
           <div className="absolute top-0 right-0 opacity-10 translate-x-1/4 -translate-y-1/4">
             <FaBookOpen size={300} />
           </div>
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 relative z-10">พร้อมสำหรับการเริ่มต้นหรือยัง?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 relative z-10">
+            โพธิปักขิยธรรม 37 ประการ
+          </h2>
           <p className="text-blue-100 mb-10 max-w-xl mx-auto relative z-10">
-            การปฏิบัติธรรมเริ่มต้นที่การฟังและการอ่าน แต่จะสำเร็จได้ด้วยการลงมือทำอย่างต่อเนื่อง
+            อิทธิบาท 4 - องค์ธรรมที่อยู่ภายนอกหลุดเข้าไปในใจเรียกว่ามโนทวาร หลุดไปเป็นกำหนดรู้ภายใน
+            ความคิดไม่เที่ยงเกิดดับ ตัวฉันไม่เที่ยงเกิดดับ
           </p>
-          <Link 
-            href="/vipassana/lesson-01" 
+          <Link
+            href="/vipassana/lesson-01"
             className="inline-block bg-white text-blue-600 px-10 py-4 rounded-full font-bold shadow-lg hover:bg-blue-50 transition-colors relative z-10"
           >
-            เริ่มบทเรียนที่ ๑
+            เริ่มบทเรียนที่ 1
           </Link>
         </div>
       </div>
