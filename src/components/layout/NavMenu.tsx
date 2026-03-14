@@ -20,7 +20,7 @@ const NavMenu = () => {
 
   const anagamiLessons = Array.from({ length: 12 }, (_, i) => ({
     href: `/anagami/lesson-${(i + 1).toString().padStart(2, '0')}`,
-    label: `${i + 1}. บทเรียนที่ ${i + 1}`,
+    label: `บทเรียนที่ ${i + 1}`,
   }));
 
   return (
