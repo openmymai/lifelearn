@@ -179,7 +179,7 @@ export default function PaticcasamuppadaLesson12() {
         {/* Navigation Button */}
         <div className="mt-20 text-center">
           <Link
-            href="/sixth/lesson-01"
+            href="/extra/suttanta-vol-9"
             className="inline-flex items-center gap-3 bg-cyan-600 hover:bg-cyan-700 text-white px-12 py-5 rounded-full text-xl font-bold transition-all shadow-2xl shadow-cyan-200 hover:-translate-y-1"
           >
             บทเรียนถัดไป: นกุลปิตาสูตร

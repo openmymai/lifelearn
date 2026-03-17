@@ -194,7 +194,7 @@ export default function AnagamiLesson12() {
         {/* Navigation Button */}
         <div className="mt-20 text-center">
           <Link
-            href="/extra/anicca-dukkha-anatta/lesson-01"
+            href="/extra"
             className="inline-flex items-center gap-3 bg-amber-600 hover:bg-amber-700 text-white px-12 py-5 rounded-full text-xl font-bold transition-all shadow-2xl shadow-amber-200 hover:-translate-y-1"
           >
             บทเรียนถัดไป
