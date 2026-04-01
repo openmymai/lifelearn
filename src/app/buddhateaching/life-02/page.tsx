@@ -121,7 +121,7 @@ export default function BuddhaTeachingLife02() {
         <IntrospectionCard highlight={true} className="bg-indigo-900">
           <div className="space-y-6 text-xl md:text-2xl leading-relaxed text-white/90">
             <p>
-              ให้พิจารณาอย่านี้ตลอดเวลาเมื่อถูกกระทบสัมผัสจนเป็นปกตินิสัยในชีวิตประจำวัน
+              ให้พิจารณาอย่างนี้ตลอดเวลาเมื่อถูกกระทบสัมผัสจนเป็นปกตินิสัยในชีวิตประจำวัน
               และปัญญาจะเกิดขึ้นทางอินทรีย์ 6 นี้ อย่างมหาศาล ปัญญา หรือ ความจริงนี้ก็จะดับความพอใจ
               ไม่พอใจ หรือความหลง หรืออวิชชาทันที
             </p>
