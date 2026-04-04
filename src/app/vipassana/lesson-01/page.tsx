@@ -86,7 +86,7 @@ export default function Lesson0101() {
                 {/* พิจารณาตัวผู้รู้ (ตัวฉัน) - เพิ่มใหม่ตามคำแนะนำ */}
                 <div className="pt-4 border-t border-slate-50">
                   <p>
-                    <span className="font-bold text-blue-700">ตัวฉัน</span>
+                    <span className="font-bold text-blue-700">ตัวฉันไม่เที่ยงเกิดดับ ตัวฉัน</span>
                     {sensesRefrain}
                   </p>
                 </div>
