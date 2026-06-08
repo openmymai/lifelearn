@@ -90,7 +90,7 @@ export default function PaticcasamuppadaLesson02() {
                     <FaHandsPraying /> พระผู้มีพระภาคตรัสว่า:
                   </p>
                   <p className="text-xl md:text-2xl text-slate-800">
-                    "ดูกรราหุลเคยเห็นน้ำหน่อยหนึ่ง ที่เราเทเสียแล้วหรือ"
+                    "ดูกรราหุลเธอเห็นน้ำหน่อยหนึ่ง ที่เราเทเสียแล้วหรือ"
                   </p>
                 </div>
                 <div className="bg-white p-4 rounded-2xl border border-slate-100 self-start ml-6 shadow-sm">
