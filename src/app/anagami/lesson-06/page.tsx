@@ -91,7 +91,7 @@ export default function AnagamiLesson06() {
               <h4 className="text-xl font-bold">การเคลื่อนไหว</h4>
             </div>
             <div className="space-y-4 text-xl text-slate-600 leading-relaxed">
-              <p>การเคลื่อนไหว คือโลกและชีวิต {natureRefrain}</p>
+              <p>การเคลื่อนไหว คือ{natureRefrain}</p>
               <p className="text-rose-600 font-medium italic">ความรู้สึกว่าการเคลื่อนไหว คือโลกและชีวิตมีตัวตนเป็นของตนเอง เป็นความเห็นผิด</p>
               <p>{truthRefrain}</p>
               <p className="text-slate-500 text-lg">{causeRefrain}</p>
